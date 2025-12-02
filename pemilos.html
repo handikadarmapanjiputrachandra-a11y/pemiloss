@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pemilihan Ketua OSIS</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f4f1eb;
+      margin: 0;
+      padding: 0;
+      color: #5b4c37;
+    }
+
+    header {
+      background: linear-gradient(135deg, #c8b090, #a3b8a4);
+      padding: 40px 20px;
+      text-align: center;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-left: 10px solid #a3b8a4;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #5b4c37;
+    }
+
+    .card p {
+      margin: 5px 0 0;
+      color: #7d705a;
+    }
+
+    button {
+      padding: 12px 20px;
+      border: none;
+      background: #a3b8a4;
+      color: #fff;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background: #8da78f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #7d705a;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pemilos 2025</h1>
+    <p>Memilih dengan hati, membangun masa depan yang lebih hangat dan harmonis.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <div>
+        <h2>Bagos</h2>
+        <p>"Melangkah dengan ketegasan, membawa OSIS menuju harmoni baru."</p>
+      </div>
+      <button onclick="vote('Bagos')">Pilih</button>
+    </div>
+
+    <div class="card">
+      <div>
+        <h2>Arini</h2>
+        <p>"Mewarnai organisasi dengan ketenangan, kehangatan, dan semangat yang lembut."</p>
+      </div>
+      <button onclick="vote('Arini')">Pilih</button>
+    </div>
+
+    <div class="card">
+      <div>
+        <h2>Kaka</h2>
+        <p>"Mencipta ruang kolaborasi yang estetik, rapi, dan penuh makna."</p>
+      </div>
+      <button onclick="vote('Kaka')">Pilih</button>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Pemilos - Estetik, Hangat, dan Harmonis
+  </footer>
+
+  <script>
+    function vote(name) {
+      alert("Anda memilih " + name + " sebagai Ketua OSIS.");
+    }
+  </script>
+</body>
+</html>
